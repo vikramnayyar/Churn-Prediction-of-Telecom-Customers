@@ -1,0 +1,25 @@
+[I 220111 10:40:53 utility:86] Dataset with 7043 and 20 features was loaded successfully.
+[I 220111 11:00:20 utility:86] Dataset with 7043 and 20 features was loaded successfully.
+[I 220111 11:00:20 prepare_data_util:26] Categorical conversion of columns was completed successfully.
+[I 220111 11:00:20 prepare_data_util:51] Columns with outliers are: []
+[I 220111 11:01:20 utility:86] Dataset with 7043 and 20 features was loaded successfully.
+[I 220111 11:01:20 prepare_data_util:26] Categorical conversion of columns was completed successfully.
+[I 220111 11:01:20 prepare_data_util:51] Columns with outliers are: []
+[I 220111 11:03:18 utility:86] Dataset with 7043 and 20 features was loaded successfully.
+[I 220111 11:03:18 prepare_data_util:41] Categorical conversion of columns was completed successfully.
+[I 220111 11:03:18 prepare_data_util:66] Columns with outliers are: []
+[I 220111 11:14:01 utility:86] Dataset with 7043 and 20 features was loaded successfully.
+[I 220111 11:14:01 prepare_data_util:41] Categorical conversion of columns was completed successfully.
+[I 220111 11:14:01 prepare_data_util:66] Columns with outliers are: []
+[I 220130 13:31:04 utility:86] Dataset with 7043 and 20 features was loaded successfully.
+[I 220130 13:31:04 prepare_data_util:41] Categorical conversion of columns was completed successfully.
+[I 220130 13:31:04 prepare_data_util:66] Columns with outliers are: []
+[I 220208 21:01:50 utility:86] Dataset with 7032 and 21 features was loaded successfully.
+[I 220208 21:01:50 prepare_data_util:41] Categorical conversion of columns was completed successfully.
+[I 220208 21:01:50 prepare_data_util:66] Columns with outliers are: []
+[I 220209 07:20:04 utility:86] Dataset with 7032 and 20 features was loaded successfully.
+[I 220209 07:20:04 prepare_data_util:41] Categorical conversion of columns was completed successfully.
+[I 220209 07:20:04 prepare_data_util:66] Columns with outliers are: []
+[I 220209 20:30:31 utility:86] Dataset with 7032 and 20 features was loaded successfully.
+[I 220209 20:30:31 prepare_data_util:39] Categorical conversion of columns was completed successfully.
+[I 220209 20:30:31 prepare_data_util:64] Columns with outliers are: []

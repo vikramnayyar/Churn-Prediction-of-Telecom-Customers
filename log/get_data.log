@@ -1,0 +1,272 @@
+[I 220110 12:13:33 utility:86] Dataset with 7043 and 21 features was loaded successfully.
+[I 220110 12:13:33 get_data_util:20] 
+     * Size of dataframe: (7043, 21)
+    
+[I 220110 12:13:33 get_data_util:21] * Datatype of columns are:
+[I 220110 12:13:33 get_data_util:22] None
+    
+    
+[I 220110 12:13:33 get_data_util:23] * Column-wise NaNs can be identified as: 
+[I 220110 12:13:33 get_data_util:24] customerID          0
+    gender              0
+    SeniorCitizen       0
+    Partner             0
+    Dependents          0
+    tenure              0
+    PhoneService        0
+    MultipleLines       0
+    InternetService     0
+    OnlineSecurity      0
+    OnlineBackup        0
+    DeviceProtection    0
+    TechSupport         0
+    StreamingTV         0
+    StreamingMovies     0
+    Contract            0
+    PaperlessBilling    0
+    PaymentMethod       0
+    MonthlyCharges      0
+    TotalCharges        0
+    Churn               0
+    dtype: int64
+    
+[I 220110 12:13:33 get_data_util:25] Total NaNs:0
+[I 220110 12:13:33 get_data:77] Cleaned dataset was saved successfully.
+[I 220110 12:19:11 utility:86] Dataset with 7043 and 21 features was loaded successfully.
+[I 220110 12:19:11 get_data_util:20] 
+     * Size of dataframe: (7043, 21)
+    
+[I 220110 12:19:11 get_data_util:21] * Datatype of columns are:
+[I 220110 12:19:11 get_data_util:22] None
+    
+    
+[I 220110 12:19:11 get_data_util:23] * Column-wise NaNs can be identified as: 
+[I 220110 12:19:11 get_data_util:24] customerID          0
+    gender              0
+    SeniorCitizen       0
+    Partner             0
+    Dependents          0
+    tenure              0
+    PhoneService        0
+    MultipleLines       0
+    InternetService     0
+    OnlineSecurity      0
+    OnlineBackup        0
+    DeviceProtection    0
+    TechSupport         0
+    StreamingTV         0
+    StreamingMovies     0
+    Contract            0
+    PaperlessBilling    0
+    PaymentMethod       0
+    MonthlyCharges      0
+    TotalCharges        0
+    Churn               0
+    dtype: int64
+    
+[I 220110 12:19:11 get_data_util:25] Total NaNs:0
+[I 220110 12:19:11 get_data:45] Cleaned dataset was saved successfully.
+[I 220110 12:20:00 utility:86] Dataset with 7043 and 21 features was loaded successfully.
+[I 220110 12:20:00 get_data_util:20] 
+     * Size of dataframe: (7043, 21)
+    
+[I 220110 12:20:00 get_data_util:21] * Datatype of columns are:
+[I 220110 12:20:00 get_data_util:22] None
+    
+    
+[I 220110 12:20:00 get_data_util:23] * Column-wise NaNs can be identified as: 
+[I 220110 12:20:00 get_data_util:24] customerID          0
+    gender              0
+    SeniorCitizen       0
+    Partner             0
+    Dependents          0
+    tenure              0
+    PhoneService        0
+    MultipleLines       0
+    InternetService     0
+    OnlineSecurity      0
+    OnlineBackup        0
+    DeviceProtection    0
+    TechSupport         0
+    StreamingTV         0
+    StreamingMovies     0
+    Contract            0
+    PaperlessBilling    0
+    PaymentMethod       0
+    MonthlyCharges      0
+    TotalCharges        0
+    Churn               0
+    dtype: int64
+    
+[I 220110 12:20:00 get_data_util:25] Total NaNs:0
+[I 220110 12:20:00 get_data:45] Cleaned dataset was saved successfully.
+[I 220130 13:30:58 utility:86] Dataset with 7043 and 21 features was loaded successfully.
+[I 220130 13:30:58 get_data_util:11] 
+     * Size of dataframe: (7043, 21)
+    
+[I 220130 13:30:58 get_data_util:12] * Datatype of columns are:
+[I 220130 13:30:58 get_data_util:13] None
+    
+    
+[I 220130 13:30:58 get_data_util:14] * Column-wise NaNs can be identified as: 
+[I 220130 13:30:58 get_data_util:15] customerID          0
+    gender              0
+    SeniorCitizen       0
+    Partner             0
+    Dependents          0
+    tenure              0
+    PhoneService        0
+    MultipleLines       0
+    InternetService     0
+    OnlineSecurity      0
+    OnlineBackup        0
+    DeviceProtection    0
+    TechSupport         0
+    StreamingTV         0
+    StreamingMovies     0
+    Contract            0
+    PaperlessBilling    0
+    PaymentMethod       0
+    MonthlyCharges      0
+    TotalCharges        0
+    Churn               0
+    dtype: int64
+    
+[I 220130 13:30:58 get_data_util:16] Total NaNs:0
+[I 220130 13:30:58 get_data:45] Cleaned dataset was saved successfully.
+[I 220208 21:01:23 utility:86] Dataset with 7043 and 21 features was loaded successfully.
+[I 220208 21:01:23 get_data_util:11] 
+     * Size of dataframe: (7043, 21)
+    
+[I 220208 21:01:23 get_data_util:12] * Datatype of columns are:
+[I 220208 21:01:23 get_data_util:13] None
+    
+    
+[I 220208 21:01:23 get_data_util:14] * Column-wise NaNs can be identified as: 
+[I 220208 21:01:23 get_data_util:15] customerID          0
+    gender              0
+    SeniorCitizen       0
+    Partner             0
+    Dependents          0
+    tenure              0
+    PhoneService        0
+    MultipleLines       0
+    InternetService     0
+    OnlineSecurity      0
+    OnlineBackup        0
+    DeviceProtection    0
+    TechSupport         0
+    StreamingTV         0
+    StreamingMovies     0
+    Contract            0
+    PaperlessBilling    0
+    PaymentMethod       0
+    MonthlyCharges      0
+    TotalCharges        0
+    Churn               0
+    dtype: int64
+    
+[I 220208 21:01:23 get_data_util:16] Total NaNs:0
+[I 220208 21:01:24 get_data:54] Cleaned dataset was saved successfully.
+[I 220208 21:01:44 utility:86] Dataset with 7043 and 21 features was loaded successfully.
+[I 220208 21:01:44 get_data_util:11] 
+     * Size of dataframe: (7043, 21)
+    
+[I 220208 21:01:44 get_data_util:12] * Datatype of columns are:
+[I 220208 21:01:44 get_data_util:13] None
+    
+    
+[I 220208 21:01:44 get_data_util:14] * Column-wise NaNs can be identified as: 
+[I 220208 21:01:44 get_data_util:15] customerID          0
+    gender              0
+    SeniorCitizen       0
+    Partner             0
+    Dependents          0
+    tenure              0
+    PhoneService        0
+    MultipleLines       0
+    InternetService     0
+    OnlineSecurity      0
+    OnlineBackup        0
+    DeviceProtection    0
+    TechSupport         0
+    StreamingTV         0
+    StreamingMovies     0
+    Contract            0
+    PaperlessBilling    0
+    PaymentMethod       0
+    MonthlyCharges      0
+    TotalCharges        0
+    Churn               0
+    dtype: int64
+    
+[I 220208 21:01:44 get_data_util:16] Total NaNs:0
+[I 220208 21:01:44 get_data:54] Cleaned dataset was saved successfully.
+[I 220209 07:19:57 utility:86] Dataset with 7043 and 21 features was loaded successfully.
+[I 220209 07:19:57 get_data_util:11] 
+     * Size of dataframe: (7043, 21)
+    
+[I 220209 07:19:57 get_data_util:12] * Datatype of columns are:
+[I 220209 07:19:57 get_data_util:13] None
+    
+    
+[I 220209 07:19:57 get_data_util:14] * Column-wise NaNs can be identified as: 
+[I 220209 07:19:57 get_data_util:15] customerID          0
+    gender              0
+    SeniorCitizen       0
+    Partner             0
+    Dependents          0
+    tenure              0
+    PhoneService        0
+    MultipleLines       0
+    InternetService     0
+    OnlineSecurity      0
+    OnlineBackup        0
+    DeviceProtection    0
+    TechSupport         0
+    StreamingTV         0
+    StreamingMovies     0
+    Contract            0
+    PaperlessBilling    0
+    PaymentMethod       0
+    MonthlyCharges      0
+    TotalCharges        0
+    Churn               0
+    dtype: int64
+    
+[I 220209 07:19:57 get_data_util:16] Total NaNs:0
+[I 220209 07:19:57 get_data:55] Cleaned dataset was saved successfully.
+[I 220209 20:30:23 utility:86] Dataset with 7043 and 21 features was loaded successfully.
+[I 220209 20:30:23 get_data_util:11] 
+     * Size of dataframe: (7043, 21)
+    
+[I 220209 20:30:23 get_data_util:12] * Datatype of columns are:
+[I 220209 20:30:23 get_data_util:13] None
+    
+    
+[I 220209 20:30:23 get_data_util:14] * Column-wise NaNs can be identified as: 
+[I 220209 20:30:23 get_data_util:15] customerID          0
+    gender              0
+    SeniorCitizen       0
+    Partner             0
+    Dependents          0
+    tenure              0
+    PhoneService        0
+    MultipleLines       0
+    InternetService     0
+    OnlineSecurity      0
+    OnlineBackup        0
+    DeviceProtection    0
+    TechSupport         0
+    StreamingTV         0
+    StreamingMovies     0
+    Contract            0
+    PaperlessBilling    0
+    PaymentMethod       0
+    MonthlyCharges      0
+    TotalCharges        0
+    Churn               0
+    dtype: int64
+    
+[I 220209 20:30:23 get_data_util:16] Total NaNs:0
+[I 220209 20:30:23 get_data:53] Cleaned dataset was saved successfully.
