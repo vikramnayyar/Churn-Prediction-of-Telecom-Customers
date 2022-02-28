@@ -14,8 +14,6 @@ In a Telecom company, customer churns is a prime cause of revenue loss. Low swit
 
 Among millions of customers, predicting churns is very challenging. Consequently, finding the churn customer can be exhaustive and complicated. There are many features to consider and huge data to analyze. Thus conventionally; the sales team relies on experience of the experts and feedback of team.     
 
-Marketing a product or a service is very challenging. Identifying the right customer is vital for the marketing team. This can significantly reduce the resources and time. Furthermore, this allows the team to position the product correctly. Unfortunately, finding the right customer can be exhaustive and complicated. There are many features to consider and huge data to analyze. Thus conventionally; the marketing team relies on experience of the marketing experts and feedback of team. 
-
 Due to vast facts originating from so many features; a mistake in identification of customer is inevitable. Missing a customer segment results as a loss to the company. On contrary, identifying wrong segment of customers will result in wastage of resources and time.
 
 Therefore, such a project is vital for product management. 
