@@ -10,16 +10,20 @@ An app is developed for customer retention programs in Telecom industry; that ta
 The dataset consists of information obtained from IBM's Business Analytics Community. The dataset provides several features pertaining to churn and non-churn customers. It is avalailable in link: https://community.ibm.com/community/user/businessanalytics/blogs/steven-macko/2019/07/11/telco-customer-churn-1113. The dataset consists of <b>7043</b> rows and <b>21</b> features.    
 
 ## Problem Statement
+In a Telecom company, customer churns is a prime cause of revenue loss. Low switching costs and beneficial alternatives; result in frequent churns. Thus, identifying churn customers is vital. This allows the team to position the product correctly.
+
+Among millions of customers, predicting churns is very challenging. Consequently, finding the churn customer can be exhaustive and complicated. There are many features to consider and huge data to analyze. Thus conventionally; the sales team relies on experience of the experts and feedback of team.     
+
 Marketing a product or a service is very challenging. Identifying the right customer is vital for the marketing team. This can significantly reduce the resources and time. Furthermore, this allows the team to position the product correctly. Unfortunately, finding the right customer can be exhaustive and complicated. There are many features to consider and huge data to analyze. Thus conventionally; the marketing team relies on experience of the marketing experts and feedback of team. 
 
-Due to vast facts originating from so many features; a mistake in identification of customer is inevitable. Missing a customer segment results as a loss to the institution. On contrary, identifying wrong segment of customers will result in wastage of resources and time (As faults in strategy is confirmed at a later stage). 
+Due to vast facts originating from so many features; a mistake in identification of customer is inevitable. Missing a customer segment results as a loss to the company. On contrary, identifying wrong segment of customers will result in wastage of resources and time.
 
-Therefore, such a project is vital for product marketing. 
+Therefore, such a project is vital for product management. 
 
 ## Goal
-This work was performed as a personal project. The motivation was to obtain analysis of bank marketing campaign and identify customers that will make term deposits. For highest possible term deposits, a high accuracy was desirable for customer classification.   
+This work was performed as a personal project. The motivation was to obtain analysis of churn customers and identify churns. For highest possible customer retention, a high accuracy was desirable for customer classification.   
 
-An app classifying depositing customers, provides a very straightforward and intuitive means for identifying customers. This saves substantial <b>resources</b> and <b>time</b>. Also, this apporach is easily reproducible, thus; provides a <b>common</b> marketing platform to all the marketing teams and bank branches. The app will be utilized by the marketing team for accurate customer selection. Reduced errors in identifying customers will <b>increase</b> the bank deposits. 
+An app classifying churns, provides a very straightforward and intuitive means for identifying customers. This saves substantial <b>resources</b> and <b>time</b>. Also, this apporach is easily reproducible, thus; provides a <b>common</b> marketing platform to all the sales regions. The app will be utilized by the sales and marketing team for accurate customer selection. Reduced errors in identifying customers will <b>increase</b> customer retention. 
 
 ## System Environment
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
