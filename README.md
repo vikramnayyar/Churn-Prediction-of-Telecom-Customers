@@ -4,7 +4,7 @@
 The application is deployed in Heroku. The app is available in the link https://predict-bank-marketing.herokuapp.com/
 
 ## Introduction
-An app is developed for customer retention programs in Telecom industry; that target churn customers. App is based on ___________ inputs and a trained model, that predict whether a customer will churn or not? 
+An app is developed for customer retention programs in Telecom industry. This targets churn customers. App is based on ___________ inputs and a trained model, that predict whether a customer will churn or not? 
 
 ## Dataset
 The dataset consists of information obtained from IBM's Business Analytics Community. The dataset provides several features pertaining to churn and non-churn customers. It is avalailable in link: https://community.ibm.com/community/user/businessanalytics/blogs/steven-macko/2019/07/11/telco-customer-churn-1113. The dataset consists of <b>7043</b> rows and <b>21</b> features.    
@@ -48,7 +48,7 @@ An app classifying churns, provides a very straightforward and intuitive means f
 ## Technical Description
 The main project scripts are in the **"src"** directory. Exceptionally, **"app.py"** is in app directory. The main constituting scripts are as follows
 
-* **get_data.py:** The script reads the data from **bank.csv** file located in data directory. The dataset is analyzed, cleaned and saved as **"cleaned_data.csv"** in **data** directory. 
+* **get_data.py:** The script reads the data from **data.csv** file located in data directory. The dataset is analyzed, cleaned and saved as **"cleaned_data.csv"** in **data** directory. 
 
 * **data_analysis.py:** This script obtains various visualizations of the dataset. These visualizations are saved in the **"Visualization"** directory. 
 
@@ -56,9 +56,9 @@ The main project scripts are in the **"src"** directory. Exceptionally, **"app.p
 
 * **split_data.py:** The cleaned dataset is split using stratified sampling. This ensures the fair splitting. The train and test sets are obtained after dataset splitting. Labels are separated from train and test sets and saved as **"train_labels.csv"** and **"test_labels.csv"**. Train data and test data are respectively saved as **"train_set.csv"** and **"test_set.csv"**.
 
-* **model_data.py:** Various data science models are trained on train set. Accuracy of all the models is verified using test set. Henceforth, the best model is selected. The feature selection of the best model is optimized to increase the accuracy to **87.1 %** (approx). This model is saved as **"model.pkl"**. 
+* **model_data.py:** Various machine learning models and a neural network are trained on train set. Accuracy of all the models is verified using test set. Henceforth, the best model is selected. The feature selection of the best model is optimized to increase the accuracy to **83.6 %** (approx). This model is saved as **"model.pkl"**. 
 
-* **app.py:** The script develops a Streamlit app; that accepts 16 user inputs. These inputs are transformed and fed to **model.pkl**. The model's prediction is displayed in the application. 
+* **app.py:** The script develops a Streamlit app; that accepts user inputs. These inputs are transformed and fed to **model.pkl**. The model's prediction is displayed in the application. 
  
 * **run_project.py:** The script runs all the project scripts (discussed in this section) sequentially. Therefore, entire project is executed with this script.  
 
@@ -98,28 +98,11 @@ The main project scripts are in the **"src"** directory. Exceptionally, **"app.p
 |  ├── split_data_util.py            # script declaring utility functions for split_data.py 
 |  ├── model_data.py                 # Dataset modelling script
 |  ├── model_data_util.py            # script declaring utility functions for model_data.py 
-|  ├── utility.py                       # script declaring general utility functions  
-├── visualizations                   # Dataset visualizations
-|  ├── age_vs_deposit.png            # Age vs deposit figure
-|  ├── bal_vs_deposit.png            # Balance vs deposit figure
-|  ├── education_vs_deposit.png      # Education vs deposit figure
-|  ├── job_vs_deposit.png            # Job vs deposit figure 
-|  ├── marital_vs_deposit.png        # Marital vs deposit figure
-|  ├── dataset_balance.png           # Dataset balance figure
-|  ├── correlation_heatmap.png       # Correalation heatmap of features
-|  ├── feature_importance.png        # Feature importance of best model
-|  ├── cm_etc.png                    # Confusion matrix of ExtraTreesClassifier
-|  ├── cm_gbc.png                    # Confusion matrix of GradientBoostClassifier
-|  ├── cm_lgbm.png                   # Confusion matrix of LightGBMClassifier
-|  ├── cm_rfc.png                    # Confusion matrix of RandomForestClassifier
-|  ├── cm_xgb.png                    # Confusion matrix of XGBClassifier  
-|  ├── cm_cbc.png                    # Confusion matrix of CatBoostClassifier
-|  ├── cm_optimized_cbc.png          # Confusion matrix of optimized CatBoostClassifier
-├── requirements.txt                 # Required libraries
-├── Procfile                         # Required for Heroku deployment 
-├── setup.sh                         # Required for Heroku deployment
+|  ├── utility.py                    # script declaring general utility functions  
+├── visualizations                   # The directory contains various dataset analysis & visualizations 
 ├── LICENSE                          # License
 ├── README.md                        # Repository description
+├── requirements.txt                 # Required libraries
 
 ```
 
