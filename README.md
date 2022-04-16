@@ -4,7 +4,7 @@
 The application is deployed in Heroku. The app is available in the link https://predict-bank-marketing.herokuapp.com/
 
 ## Introduction
-An app is developed for customer retention programs in Telecom industry. This targets churn customers. App is based on ___________ inputs and a trained model, that predict whether a customer will churn or not? 
+An app is developed for customer retention programs in Telecom industry. This targets churn customers. App is based on **18** inputs and a trained model, that predict whether a customer will churn or not? 
 
 ## Dataset
 The dataset consists of information obtained from IBM's Business Analytics Community. The dataset provides several features pertaining to churn and non-churn customers. It is avalailable in link: https://community.ibm.com/community/user/businessanalytics/blogs/steven-macko/2019/07/11/telco-customer-churn-1113. The dataset consists of <b>7043</b> rows and <b>21</b> features.    
