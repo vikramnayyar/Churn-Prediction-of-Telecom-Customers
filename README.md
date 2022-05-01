@@ -117,13 +117,13 @@ pip install -r requirements.txt
 ## Run Project
 As discussed in **Technical Aspect** section, "src" and “app” directory possess the main scripts. 
 
-Running the following command in the "src" directory executes the entire project  
+Running the following command in the main project directory executes the entire project  
 ```bash
-python3 run_project.py
+python3 src/run_project.py
 ```
 Alternatively, a project script can be individually executed using the general script 
 ```bash
-python3 script.py
+python3 src/script.py
 ```
 Here “script.py” represents any python script. 
 
