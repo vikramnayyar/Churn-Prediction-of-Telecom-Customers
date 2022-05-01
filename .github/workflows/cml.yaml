@@ -7,25 +7,25 @@ jobs:
     container: docker://ghcr.io/iterative/cml:0-dvc2-base1
     
     steps:
-      uses: actions/checkout@v2
-      uses: iterative/setup-cml@v1
+      - uses: actions/checkout@v2
+      - uses: iterative/setup-cml@v1
       
       - name: install requirements
         run: pip install -r requirements.txt
       
-      -name: get data
-       run: python3 src/get_data.py
+      - name: get data
+        run: python3 src/get_data.py
        
        
-      -name: data analysis
-       run: python3 src/data_analysis.py
+      - name: data analysis
+        run: python3 src/data_analysis.py
        
-      -name: prepare data
-       run: python3 src/prepare_data.py
+      - name: prepare data
+        run: python3 src/prepare_data.py
        
-      -name: split data
-       run: python3 src/split_data.py
+      - name: split data
+        run: python3 src/split_data.py
        
-      -name: model data
-       run: python3 src/model_data.py
+      - name: model data
+        run: python3 src/model_data.py
   
