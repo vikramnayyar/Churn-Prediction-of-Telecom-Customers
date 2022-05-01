@@ -1,5 +1,5 @@
 catboost==0.26.1
-keras==2.6.0
+keras==2.8.0
 lightgbm==3.2.1
 logzero==1.7.0
 matplotlib==3.4.2
