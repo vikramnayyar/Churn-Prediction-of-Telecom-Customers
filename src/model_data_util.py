@@ -38,7 +38,7 @@ from utility import parse_config
 #-----------------Reading Config------------------
 ##################################################
 
-config_path = "../config/config.yaml"   
+config_path = "config/config.yaml"   
 config = parse_config(config_path)   # read config file
 
 ##################################################
@@ -108,9 +108,9 @@ def plot_cm(model, cm, accuracy):
     plt.ylabel('Actual Values')
     plt.xlabel('Predicted Values \n \n Accuracy: {}'.format(round(accuracy, 4)))
     
-    os.chdir('../visualizations')
+    os.chdir('visualizations')
     plt.savefig('cm_{}'.format(model))   # save figure
-    os.chdir('../src')
+    os.chdir('..')
     plt.close()
 
 def custom_cmap():
@@ -175,7 +175,8 @@ def evaluate_nn(history):
     plt.xlabel('epoch') 
     plt.legend(['train', 'test'], loc='upper left') 
     
-    tgt_path = pathlib.Path.cwd().parent.joinpath('visualizations/nn_performance.png')  # declaring file path
+    tgt_path = config["model_data"]["nn"]["nn_performance"]
+    # tgt_path = pathlib.Path.cwd().parent.joinpath('visualizations/nn_performance.png')  # declaring file path
     plt.savefig(tgt_path)
 
 
@@ -199,9 +200,9 @@ def plot_feature_importance(train_data, train_labels, best_model):
     plt.xticks(rotation = 45)
     plt.grid()
     
-    os.chdir("../visualizations")
+    os.chdir("visualizations")
     plt.savefig("feature_importance.png")
-    os.chdir("../src")
+    os.chdir("..")
     
     
 def optimize_best_model(train_data, train_labels, test_data, test_labels):

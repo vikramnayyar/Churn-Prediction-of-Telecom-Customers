@@ -13,7 +13,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 from sklearn.model_selection import train_test_split
+from utility import parse_config
 
+config_path = "config/config.yaml"   
+config = parse_config(config_path)   # read config file
 
 
 def analyze_corr(df, col):
@@ -32,7 +35,7 @@ def analyze_corr(df, col):
     # title
     axes.text(-1, -1.5, 'Correlation', color='black', fontsize=24, fontweight='bold')
     
-    plt.savefig('../visualizations/correlation_heatmap.png')
+    plt.savefig('visualizations/correlation_heatmap.png')
     
     # Printing correlations
     corr_matrix = df.corr()
@@ -50,16 +53,20 @@ def split_data(df, col):
     test_data = test_set.drop(col, axis = 1)
 
     # Saving train and test sets 
-    tgt_path = pathlib.Path.cwd().parent.joinpath('data/train_labels.csv')  # declaring file path
+    tgt_path = config["split_data"]["train_labels"]
+    # tgt_path = pathlib.Path.cwd().parent.joinpath('data/train_labels.csv')  # declaring file path
     train_labels.to_csv(tgt_path, index = False)   # saving file
     
-    tgt_path = pathlib.Path.cwd().parent.joinpath('data/train_data.csv')  # declaring file path
+    tgt_path = config["split_data"]["train_data"]
+    # tgt_path = pathlib.Path.cwd().parent.joinpath('data/train_data.csv')  # declaring file path
     train_data.to_csv(tgt_path, index = False)   # saving file
     
-    tgt_path = pathlib.Path.cwd().parent.joinpath('data/test_labels.csv')  # declaring file path
+    tgt_path = config["split_data"]["test_labels"]
+    # tgt_path = pathlib.Path.cwd().parent.joinpath('data/test_labels.csv')  # declaring file path
     test_labels.to_csv(tgt_path, index = False)   # saving file
     
-    tgt_path = pathlib.Path.cwd().parent.joinpath('data/test_data.csv')  # declaring file path
+    tgt_path = config["split_data"]["test_data"]
+    # tgt_path = pathlib.Path.cwd().parent.joinpath('data/test_data.csv')  # declaring file path
     test_data.to_csv(tgt_path, index = False)   # saving file
     
     logger.info(f"\nRows in train data : {len(train_set)}\nRows in train labels: {len(train_labels)}\nRows in test data: {len(test_set)}\nRows in test labels: {len(test_labels)}\n")

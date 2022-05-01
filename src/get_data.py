@@ -15,7 +15,7 @@ from get_data_util import analyze_data
 create_log("get_data.log")  # Creating log file
 
 # setting config
-config_path = "../config/config.yaml"   
+config_path = "config/config.yaml"   
 config = parse_config(config_path)   # read config file
 
 #%%
@@ -48,7 +48,7 @@ df = df.drop(["customerID"], axis = 1)
 
 # %%
 # Saving cleaned data
-df.to_csv('../data/clean_data.csv', index = False)    # Saving the file in the path
+df.to_csv('data/clean_data.csv', index = False)    # Saving the file in the path
 
 logger.info("Cleaned dataset was saved successfully.")
 

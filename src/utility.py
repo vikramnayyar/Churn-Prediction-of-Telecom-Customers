@@ -23,7 +23,7 @@ def parse_config(config_path):
         config = yaml.safe_load(f)
     return config
 
-# config_path = "../src/config.yaml"   
+# config_path = "src/config.yaml"   
 # config = parse_config(config_path)   # read config file
 
 ####################################
@@ -31,7 +31,8 @@ def parse_config(config_path):
 ####################################
 
 def create_log(log_name):
-    tgt_path = pathlib.Path.cwd().parent.joinpath('log')
+    tgt_path = pathlib.Path.cwd().joinpath('log')
+    # tgt_path = pathlib.Path.cwd().parent.joinpath('log')
     logfile(tgt_path/log_name)     # Creating logfile
 
 

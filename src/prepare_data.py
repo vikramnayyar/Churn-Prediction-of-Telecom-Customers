@@ -13,7 +13,7 @@ create_log("prepare_data.log")  # Creating log file
 ##################################################
 #-----------------Reading Dataset-----------------
 ##################################################
-config_path = "../config/config.yaml"   
+config_path = "config/config.yaml"   
 config = parse_config(config_path)   # read config file
 data_path = config["prepare_data"]["data"]   # read dataset
 df = read_data(data_path)
@@ -41,4 +41,4 @@ df = convert_cat(df, col_list)  # converting to categories
 cols_with_outliers = cols_with_ouliers(df)   # Finding columns with outliers
 
 
-df.to_csv("../data/prepared_data.csv", index = False)   # Saving file
+df.to_csv("data/prepared_data.csv", index = False)   # Saving file

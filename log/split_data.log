@@ -140,3 +140,97 @@
     Rows in test data: 1407
     Rows in test labels: 1407
     
+[I 220501 21:41:17 utility:87] Dataset with 7032 and 20 features was loaded successfully.
+[I 220501 21:41:18 split_data_util:39] The correlation of 'rating' with other columns is: Contract           -0.461258
+    tenure             -0.397793
+    OnlineSecurity     -0.325186
+    TechSupport        -0.306661
+    TotalCharges       -0.252172
+    OnlineBackup       -0.215027
+    DeviceProtection   -0.198376
+    Dependents         -0.184954
+    Partner            -0.172806
+    InternetService    -0.062959
+    StreamingMovies    -0.045115
+    StreamingTV        -0.041897
+    gender             -0.013739
+    PhoneService        0.015133
+    MultipleLines       0.043057
+    PaymentMethod       0.117903
+    SeniorCitizen       0.162883
+    MonthlyCharges      0.213408
+    PaperlessBilling    0.218250
+    Churn               1.000000
+    Name: Churn, dtype: float64
+[I 220501 21:44:52 utility:87] Dataset with 7032 and 20 features was loaded successfully.
+[I 220501 21:44:52 split_data_util:39] The correlation of 'rating' with other columns is: Contract           -0.461258
+    tenure             -0.397793
+    OnlineSecurity     -0.325186
+    TechSupport        -0.306661
+    TotalCharges       -0.252172
+    OnlineBackup       -0.215027
+    DeviceProtection   -0.198376
+    Dependents         -0.184954
+    Partner            -0.172806
+    InternetService    -0.062959
+    StreamingMovies    -0.045115
+    StreamingTV        -0.041897
+    gender             -0.013739
+    PhoneService        0.015133
+    MultipleLines       0.043057
+    PaymentMethod       0.117903
+    SeniorCitizen       0.162883
+    MonthlyCharges      0.213408
+    PaperlessBilling    0.218250
+    Churn               1.000000
+    Name: Churn, dtype: float64
+[I 220501 21:45:23 utility:87] Dataset with 7032 and 20 features was loaded successfully.
+[I 220501 21:45:23 split_data_util:42] The correlation of 'rating' with other columns is: Contract           -0.461258
+    tenure             -0.397793
+    OnlineSecurity     -0.325186
+    TechSupport        -0.306661
+    TotalCharges       -0.252172
+    OnlineBackup       -0.215027
+    DeviceProtection   -0.198376
+    Dependents         -0.184954
+    Partner            -0.172806
+    InternetService    -0.062959
+    StreamingMovies    -0.045115
+    StreamingTV        -0.041897
+    gender             -0.013739
+    PhoneService        0.015133
+    MultipleLines       0.043057
+    PaymentMethod       0.117903
+    SeniorCitizen       0.162883
+    MonthlyCharges      0.213408
+    PaperlessBilling    0.218250
+    Churn               1.000000
+    Name: Churn, dtype: float64
+[I 220501 21:45:58 utility:87] Dataset with 7032 and 20 features was loaded successfully.
+[I 220501 21:45:58 split_data_util:42] The correlation of 'rating' with other columns is: Contract           -0.461258
+    tenure             -0.397793
+    OnlineSecurity     -0.325186
+    TechSupport        -0.306661
+    TotalCharges       -0.252172
+    OnlineBackup       -0.215027
+    DeviceProtection   -0.198376
+    Dependents         -0.184954
+    Partner            -0.172806
+    InternetService    -0.062959
+    StreamingMovies    -0.045115
+    StreamingTV        -0.041897
+    gender             -0.013739
+    PhoneService        0.015133
+    MultipleLines       0.043057
+    PaymentMethod       0.117903
+    SeniorCitizen       0.162883
+    MonthlyCharges      0.213408
+    PaperlessBilling    0.218250
+    Churn               1.000000
+    Name: Churn, dtype: float64
+[I 220501 21:45:58 split_data_util:72] 
+    Rows in train data : 5625
+    Rows in train labels: 5625
+    Rows in test data: 1407
+    Rows in test labels: 1407
+    

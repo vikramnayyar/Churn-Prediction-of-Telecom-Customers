@@ -10,7 +10,7 @@ from matplotlib.patches import Patch
 
 from utility import parse_config
 
-config_path = "../config/config.yaml"   
+config_path = "config/config.yaml"   
 config = parse_config(config_path)   # read config file
 
 

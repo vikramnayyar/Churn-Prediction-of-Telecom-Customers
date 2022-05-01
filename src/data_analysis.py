@@ -11,7 +11,7 @@ from data_analysis_util import dataset_balance, box_plot, grouped_bar_plot
 create_log("data_analysis.log")  # Creating log file
 
 # setting config
-config_path = "../config/config.yaml"   
+config_path = "config/config.yaml"   
 config = parse_config(config_path)   # read config file
 
 
@@ -23,7 +23,7 @@ config = parse_config(config_path)   # read config file
 data_path = config["data_analysis"]["data"]   # read dataset
 df_clean = read_data(data_path)
 
-os.chdir('../visualizations')  # directory to save visualization figures
+os.chdir('visualizations')  # directory to save visualization figures
 
 #%%
 #################################################
@@ -82,4 +82,4 @@ box_plot(df_clean, "MonthlyCharges", "Churn", "monthcharges_vs_churn")
 
 #%%
 
-os.chdir('../src')  # resetting to src path 
+os.chdir('..')  # resetting to project path 

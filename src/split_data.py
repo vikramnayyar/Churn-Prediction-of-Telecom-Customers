@@ -14,7 +14,7 @@ create_log("split_data.log")  # Creating log file
 #-----------------Reading Dataset-----------------
 ##################################################
 
-config_path = "../config/config.yaml"   
+config_path = "config/config.yaml"   
 config = parse_config(config_path)   # read config file
 data_path = config["split_data"]["data"]   # read dataset
 df = read_data(data_path)
