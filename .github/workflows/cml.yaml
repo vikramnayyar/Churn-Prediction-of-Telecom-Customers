@@ -1,4 +1,4 @@
-name: Churn Prediciton for telecom Customers
+name: Churn Prediction for telecom Customers
 on: [push]
 
 jobs: 
