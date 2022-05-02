@@ -1,0 +1,14 @@
+name: Churn Prediciton for telecom Customers
+on: [push]
+
+jobs: 
+  run-project:
+    runs-on: ubuntu-latest
+    container: docker://ghcr.io/iterative/cml:0-dvc2-base1
+    
+    steps:
+      -uses: actions/setup-node@v2
+      -uses: iterative/setup-cml@v1
+      
+      -name: install requirements
+       run: pip install -r requirements.txt
