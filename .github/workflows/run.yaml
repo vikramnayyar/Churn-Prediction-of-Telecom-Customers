@@ -13,5 +13,5 @@ jobs:
       - name: install requirements
         run: pip install -r requirements.txt
         
-       - name: run project --1.get data
-         run: python3 src/get_data.py
+      - name: run project get data
+        run: python3 src/get_data.py
