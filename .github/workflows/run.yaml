@@ -23,7 +23,7 @@ jobs:
         run: python3 src/prepare_data.py
         
       - name: 4- split data
-        run: python3 split_data.py
+        run: python3 src/split_data.py
         
       - name: 5- model data
         run: python3 src/run_data.py
