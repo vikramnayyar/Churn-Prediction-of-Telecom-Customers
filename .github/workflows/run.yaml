@@ -26,4 +26,4 @@ jobs:
         run: python3 src/split_data.py
         
       - name: 5- model data
-        run: python3 src/run_data.py
+        run: python3 src/model_data.py
