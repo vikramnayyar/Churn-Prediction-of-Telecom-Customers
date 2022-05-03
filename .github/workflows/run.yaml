@@ -13,5 +13,17 @@ jobs:
       - name: install requirements
         run: pip install -r requirements.txt
         
-      - name: run project get data
+      - name: run project --1. get data
         run: python3 src/get_data.py
+        
+      - name: 2. analyze data
+        run: python3 src/data_analysis.py
+        
+      - name: 3. prepare data
+        run: python3 src/prepare_data.py
+        
+      - name: 4- split data
+        run: python3 split_data.py
+        
+      - name: 5- model data
+        run: python3 src/run_data.py
