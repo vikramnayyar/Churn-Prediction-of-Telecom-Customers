@@ -9,7 +9,7 @@ import pandas as pd
 import streamlit as st
 import pickle as pkl
 
-df = pd.read_csv("../data/clean_data.csv")
+df = pd.read_csv("data/clean_data.csv")
 
 st.title('Churn Prediction for Telecom Customers')
 
@@ -209,7 +209,7 @@ payment_method = encode(df, "PaymentMethod", selected)
 feature_1 = monthly_charges**(0.2) + senior_citizen**(0.35) - online_security**(0.1)
 
 
-pickle_in = open("../model/model.pkl","rb")
+pickle_in = open("model/model.pkl","rb")
 classifier = pkl.load(pickle_in)
 
 
